@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    width: fit-content;
+}
+
+#sec1 {
+    margin: 0;
+    padding: 0;
+    background-image: url("Planet9_Wallpaper_5000x2813.jpg");
+    background-size: 100%;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: right;
+    justify-content: right;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 30%;
+    display: flex;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 25px;
+}
+
+.nav-list li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: black;
+}
+
+.leftNav {
+    color: aliceblue;
+    font-size: 20px;
+    padding: 20px 25px;
+    width: 60%;
+    text-align: left;
+}
+
+.background {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    max-width: 21%;
+    height: auto;
+    padding: 10px;
+}
+
+.polaroid {
+    width: 80%;
+    background-color: lightskyblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+p {
+    color: lightblue;
+    text-align: center;
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 12%;
+}
+
+.small {
+    font-size: medium;
+    padding-bottom: 10%;
+    padding-top: 0;
+    margin: 20px;
+}
+
+.context {
+    margin: 15% 0;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 0;
+}
+
+article.container {
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+}
+
+figure.container {
+    width: 70%;
+    margin: 0;
+    display: inline-flex;
+    align-content: center;
+}
+
+img.icon {
+    margin: 10px 35px;
+    margin-bottom: 5%;
+}
+
+h2 {
+    color: lightblue;
+    text-align: center;
+    font-size: 46px;
+}
+
+#certificate1 {
+    width: 100%;
+    display: inline-flex;
+    
+}
+
+.certificate {
+    border-radius: 25px;
+    padding-left: 6%;
+    width: fit-content;
+}
+
+.imo {
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 1% 30px;
+}
+
+.fa:hover, a:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+a {
+    color: whitesmoke;
+    font-size: large;
+    text-decoration: none;
+}
+
+aside {
+    margin-left: 36%;
+    margin-bottom: 5%;
+}
+
+.eto {
+    padding-bottom: 2%;
+}
