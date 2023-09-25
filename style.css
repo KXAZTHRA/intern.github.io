@@ -17,7 +17,8 @@ body {
 
 .navbar {
     display: flex;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     align-items: right;
     justify-content: right;
     top: 0;
